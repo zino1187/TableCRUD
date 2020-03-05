@@ -13,6 +13,8 @@
 		ACE5DDF924108169007AA5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DDF724108169007AA5E2 /* Main.storyboard */; };
 		ACE5DDFB2410816B007AA5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DDFA2410816B007AA5E2 /* Assets.xcassets */; };
 		ACE5DDFE2410816B007AA5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DDFC2410816B007AA5E2 /* LaunchScreen.storyboard */; };
+		ACE5DE0624108471007AA5E2 /* MemberListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DE0524108471007AA5E2 /* MemberListController.swift */; };
+		ACE5DE08241084D0007AA5E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DE07241084D0007AA5E2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ACE5DDFA2410816B007AA5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE5DDFD2410816B007AA5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE5DDFF2410816B007AA5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE5DE0524108471007AA5E2 /* MemberListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListController.swift; sourceTree = "<group>"; };
+		ACE5DE07241084D0007AA5E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ACE5DDFA2410816B007AA5E2 /* Assets.xcassets */,
 				ACE5DDFC2410816B007AA5E2 /* LaunchScreen.storyboard */,
 				ACE5DDFF2410816B007AA5E2 /* Info.plist */,
+				ACE5DE0524108471007AA5E2 /* MemberListController.swift */,
+				ACE5DE07241084D0007AA5E2 /* DetailViewController.swift */,
 			);
 			path = TableCRUD;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE5DDF624108169007AA5E2 /* ViewController.swift in Sources */,
+				ACE5DE0624108471007AA5E2 /* MemberListController.swift in Sources */,
+				ACE5DE08241084D0007AA5E2 /* DetailViewController.swift in Sources */,
 				ACE5DDF224108169007AA5E2 /* AppDelegate.swift in Sources */,
 				ACE5DDF424108169007AA5E2 /* SceneDelegate.swift in Sources */,
 			);
